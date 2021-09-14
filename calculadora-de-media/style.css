@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  /* min-height: 400px; */
+  height: 100vh;
+  background-image: linear-gradient(rgb(14, 14, 204), rgba(5, 5, 5, 0.356)), url("./fundo-matematica.jpg");
+
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow-y:hidden;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+  height: 20vh;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  display: block;
+  margin-left: 0px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.entradas {
+  width: 80px;
+  color: black;
+  padding: 3px;
+  margin: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#nome {
+  width: 300px;
+}
+label {
+  color: white;
+}
+
+#resultado {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+ 
+}
+
+.containerForm {
+  text-align: center;
+}
+
+#buttonSubmit,
+#buttonReset {
+  width: 120px;
+  height: 30px;
+  border-radius: 12px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+#buttonReset {
+  color: red;
+}
