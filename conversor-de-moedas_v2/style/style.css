@@ -1,0 +1,97 @@
+﻿body {
+  font-family: "Roboto Mono", monospace;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(204, 171, 23, 0.884),
+      rgba(250, 246, 0, 0.479)
+    ),
+    url("https://www.odairjunior.com.br/wp-content/uploads/2018/06/Featured-Image.png");
+  background-color: #000000;
+  background-size: cover;
+  overflow-y: hidden;
+}
+header {
+  text-align: center;
+  padding: 10px;
+  height: 8vh;
+  margin-top: 60px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 90vh;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#valueinput {
+  width: 200px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+#valueconverted {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 0);
+  font-weight: 600;
+}
+p {
+  color: #000000;
+  font-weight: 600;
+}
+#currencyinput {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 17px;
+}
+#buttonConverter {
+  padding: 8px;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3a3df8;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px 1px #999;
+}
+
+#buttonConverter:hover {
+  background-color: #6cbdff;
+}
+
+#buttonConverter:active {
+  background-color: #001a8f;
+  /* box-shadow: 0 5px #666; */
+  box-shadow: 2px 3px 3px 1px #666;
+  transform: translateY(3px) translateX(3px);
+}
+
+#labelSelect {
+  color: #000000;
+  font-weight: 600;
+}

@@ -1,52 +1,58 @@
 ﻿body {
     font-family: "Roboto Mono", monospace;
-    min-height: 450px;
+    min-height: 500px;
     background-image: url("https://laiob.com/wp-content/uploads/2018/04/silicon_valley_corporation.jpg");
     background-color: #000000;
-    background-size: 100vh;
+    background-size: 90vh;
     background-position: center bottom;
     background-repeat: no-repeat;
-}
-
-.container {
+  }
+  
+  .container {
     text-align: center;
     padding: 20px;
     height: 90vh;
-}
-
-.page-title {
+  }
+  
+  .page-title {
     color: #ffffff;
-    margin: 0 0 5px;
-}
-
-.page-subtitle {
+    margin: 20px 0 0 5px;
+  }
+  
+  .page-subtitle {
     color: #ffffff;
     margin-top: auto;
     font-size: 20px;
     text-align: center;
-}
-
-.page-logo {
+  }
+  
+  .page-logo {
     width: 200px;
-}
-
-.alura-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .alura-logo {
     width: 40px;
     position: absolute;
     top: 10px;
     right: 10px;
-}
-
-#valueinput {
+  }
+  
+  #valueinput {
     width: 200px;
     padding: 5px;
-}
-
-#valueconverted {
+    border-radius: 5px;
+  }
+  
+  #valueconverted {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 0);
     font-weight: 600;
-}
-p {
-    color: #ffffff;
-}
+  }
+  #buttonConverter {
+    padding: 5px;
+    border-radius: 10px;
+  }
+  

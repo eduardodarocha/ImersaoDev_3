@@ -3,7 +3,6 @@ body {
   /* min-height: 400px; */
   height: 100vh;
   background-image: linear-gradient(rgb(14, 14, 204), rgba(5, 5, 5, 0.356)), url("./fundo-matematica.jpg");
-
   background-color: #000000;
   background-size: cover;
   background-position: center bottom;
