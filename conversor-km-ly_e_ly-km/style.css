@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 450px;
+  background-image: url(https://cdn.universoracionalista.org/wp-content/uploads/2020/06/gargantua-scaled.jpg);
+  background-color: #000000;
+  /* background-size: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: rgb(0, 0, 0);
+  background-color: rgba(139, 218, 255, 0.5);
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0 8px 0;
+}
+
+p.page-title {
+  font-size: 20px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin: 10px auto 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(139, 218, 255, 0.5);
+  border-radius: 6px;
+  padding: 2px 8px 2px;
+  width: fit-content;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#valueinput {
+  width: 200px;
+}
+
+#valueconverted {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 0);
+  font-weight: 600;
+}
+
+input {
+  width: 245px;
+  height: 20px;
+  padding: 5px;
+}
+
+.bt {
+  width: 260px;
+  border: 1px solid #25692a;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+.bt:active {
+  position: relative;
+  top: 2px;
+}
+
+.bt-orange {
+  border-color: #eb9b48;
+  background: linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
+  box-shadow: inset 0px 1px 0px 0px #fdf7f0;
+  color: #333;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+.bt-orange:hover {
+  background: linear-gradient(to bottom, #eb9b48 5%, #f7d6b3 100%);
+}
+
+.bt-blue {
+  border-color: #46a7f5;
+  background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #333;
+  /* text-shadow: 0px 1px 0px #528009; */
+  text-shadow: 0px 1px 0px #a7f2ff;
+}
+.bt-blue:hover {
+  background: linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+}
