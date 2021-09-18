@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imersão Dev - Aula 01 Desafio 02</title>
+    <link href="./style/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <img src="./image/logo-imersao-dev.png" class="page-logo" alt="logo imersão dev" />
+    <!-- <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="logo"> -->
+
+    <div class="container">
+        <h1 class="page-title">Conversor de Temperatura</h1>
+        <p class="page-subtitle">Celsius °C -> Fahrenheit °F -> Kelvin <br /></p>
+        <input id="inputvalue" type="number" placeholder="Valor para conversão" />
+
+        <div class="input-group">
+            <input type="radio" id="celsius-choice-input" name="temperaturaChoiceInput" value="celsius" />
+            <label for="celsius-choice">Celsius</label><br />
+            <input type="radio" id="fahrenheit-choice" name="temperaturaChoiceInput" value="fahrenheit" />
+            <label for="fahrenheit-choice">Fahrenheit</label><br />
+            <input type="radio" id="kelvin-choice" name="temperaturaChoiceInput" value="kelvin" />
+            <label for="kelvin-choice">Kelvin</label>
+        </div>
+
+        <p>Converter para:</p>
+        <div class="input-group">
+            <input type="radio" id="celsius-choice" name="temperaturaChoiceOutput" value="celsius" />
+            <label for="celsius">Celsius</label><br />
+            <input type="radio" id="fahrenheit-choice" name="temperaturaChoiceOutput" value="fahrenheit" />
+            <label for="fahrenheit">Fahrenheit</label><br />
+            <input type="radio" id="kelvin-choice" name="temperaturaChoiceOutput" value="kelvin" />
+            <label for="kelvin">Kelvin</label>
+        </div>
+
+        <p><button onclick="converter()">Converter</button></p>
+        <!-- <br>
+        <p class="page-subtitle"> Fahrenheit °F -> Celsius</p>
+        <input id="inputvaluefahrenheit" type="number" placeholder="Valor em °Fahrenheit">
+        <p> <button onclick="converterEmCelsius()">Converter em Celsius</button></p>
+        <p class="page-title">O valor em Celsius é:<span id="valuecelsiusconverted"></span></p> -->
+        <p id="valueconverted"></p>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo" />
+    </a>
+
+    <script type="text/javascript" src="./script/script.js"></script>
+</body>
+
+</html>
