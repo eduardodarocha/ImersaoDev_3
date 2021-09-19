@@ -1,0 +1,96 @@
+﻿body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 450px;
+  background: url("https://thumbs.dreamstime.com/b/term-metro-celsius-e-fahrenheit-85958505.jpg")
+      no-repeat bottom left,
+    url("https://thumbs.dreamstime.com/b/term-metro-celsius-e-fahrenheit-85958505.jpg")
+      no-repeat bottom right;
+  background-color: #ffffff;
+  background-size: 70vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 80vh;
+}
+
+.page-title {
+  color: red;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: red;
+  margin-top: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#inputvalue {
+  width: 160px;
+  padding: 6px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+#valueconverted {
+  color: rgb(0, 0, 0);
+  background-color: #ea989a;
+  font-weight: 600;
+  border-radius: 5px;
+  /* width: 250px; */
+  width: fit-content;
+  margin: auto;
+  font-size: 20px;
+  padding: 0 8px 0 8px;
+}
+
+div.input-group {
+  width: 145px;
+  text-align: justify;
+  margin: auto;
+}
+
+button {
+  min-width: 130px;
+  height: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+}
+button:hover:after {
+  top: 0;
+  left: 0;
+}
+button:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #ea989a;
+  /* background-color: #ced4da; */
+}
